@@ -1,7 +1,19 @@
-# Coursera Dump
+Скрипт выбирает случайные 20 онлайн-курсов с сайта https://www.coursera.org/, и собирает информацию о них. Собранная информация состоит из следующих пунктов: Название курса; языки, на которых этот курс преподается; дата начала регистрации на курс; длительность курса в неделях и средний рейтинг(если он определен).
+Собранная информация выгружается в xlsx-файл, который генерируется автоматически в той же папке, что и этот скрипт.
 
-[TODO. There will be project description]
+<hr>
 
-# Project Goals
+ЗАПУСК.
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Запуск из командной строки: python3.5 coursera.py
+
+<hr>
+
+ТРЕБОВАНИЯ
+
+Python3.5
+
+Requests (<a href=http://docs.python-requests.org/en/master/>документация</a>)
+BeautifulSoup (<a href=https://pypi.python.org/pypi/beautifulsoup4>документация</a>)
+OpenPyXL (<a href=https://openpyxl.readthedocs.io/en/default/>документация</a>)
+lxml (<a href=http://lxml.de/>документация</a>)
