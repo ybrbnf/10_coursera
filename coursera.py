@@ -5,9 +5,8 @@ from lxml import etree
 from openpyxl import Workbook
 
 
-def get_courses_list(num_of_links):
+def get_courses_list(num_of_links, courses_url):
     links = []
-    courses_url = 'https://www.coursera.org/sitemap~www~courses.xml'
     request = requests.get(courses_url)
     root = etree.fromstring(request.content)
     for item in root.iter('{*}loc'):
@@ -76,6 +75,7 @@ def output_courses_info_to_xlsx(filepath, course_info):
 
 if __name__ == '__main__':
     num_of_links = 20
+    courses_url = 'https://www.coursera.org/sitemap~www~courses.xml'
     filepath = 'course_info.xlsx'
     random_links = get_courses_list(num_of_links)
     course_info = get_course_info(random_links)
