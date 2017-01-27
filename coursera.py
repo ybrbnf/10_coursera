@@ -1,5 +1,3 @@
-import json
-import sys
 from random import sample
 import requests
 from bs4 import BeautifulSoup
