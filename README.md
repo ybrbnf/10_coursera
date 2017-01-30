@@ -3,17 +3,16 @@
 
 <hr>
 
-ЗАПУСК.
+# ЗАПУСК.
 
-Запуск из командной строки: 
+Запуск из командной строки:<br>
 `python3.5 coursera.py`
 
 <hr>
 
-ТРЕБОВАНИЯ
+# ТРЕБОВАНИЯ
 
 Python3.5
-
 Requests (<a href=http://docs.python-requests.org/en/master/>документация</a>)<br>
 BeautifulSoup (<a href=https://pypi.python.org/pypi/beautifulsoup4>документация</a>)<br>
 OpenPyXL (<a href=https://openpyxl.readthedocs.io/en/default/>документация</a>)<br>
