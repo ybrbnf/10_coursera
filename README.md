@@ -5,7 +5,8 @@
 
 ЗАПУСК.
 
-Запуск из командной строки: python3.5 coursera.py
+Запуск из командной строки: 
+`python3.5 coursera.py`
 
 <hr>
 
@@ -13,7 +14,7 @@
 
 Python3.5
 
-Requests (<a href=http://docs.python-requests.org/en/master/>документация</a>)
-BeautifulSoup (<a href=https://pypi.python.org/pypi/beautifulsoup4>документация</a>)
-OpenPyXL (<a href=https://openpyxl.readthedocs.io/en/default/>документация</a>)
+Requests (<a href=http://docs.python-requests.org/en/master/>документация</a>)<br>
+BeautifulSoup (<a href=https://pypi.python.org/pypi/beautifulsoup4>документация</a>)<br>
+OpenPyXL (<a href=https://openpyxl.readthedocs.io/en/default/>документация</a>)<br>
 lxml (<a href=http://lxml.de/>документация</a>)
